@@ -1,8 +1,6 @@
 # InDrive Rides at Scale with Apache Spark & Databricks
 
-Exercise for **Module 7 (Spark & Databricks)** of the [DataMaroc Bootcamp].
-
-The goal was to apply the Spark concepts from the BIM lab to a new business: an **InDrive-style ride-hailing platform** with 2 million rides, driver and zone dimension tables, and deliberately skewed data (one driver takes about 50% of the rides, one zone about 40% of the pickups).
+A hands-on PySpark project exploring how Spark behaves at scale on an **InDrive-style ride-hailing platform**: 2 million rides, driver and zone dimension tables, and deliberately skewed data (one driver takes about 50% of the rides, one zone about 40% of the pickups).
 
 ## What I built
 
@@ -21,7 +19,7 @@ The notebook is split into six parts, each ending with `assert` checks that vali
 
 ```
 indrive_spark/
-├── exercise_indrive_spark.py     # Completed Databricks notebook (source format)
+├── exercise_indrive_spark.py     # Databricks notebook (source format)
 ├── exercise_indrive_spark.html   # Exported notebook with outputs, proof that all asserts pass
 └── README.md
 ```
@@ -35,7 +33,3 @@ indrive_spark/
 ## Tools
 
 PySpark, Databricks Free Edition (serverless), Delta Lake, Spark SQL window functions.
-
-## Notes
-
-The setup cell (data generation and helpers such as `partition_sizes()` and `plan_text()`) was provided by the course. All the `TODO` sections were completed by me.
