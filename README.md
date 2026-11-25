@@ -1,6 +1,6 @@
 # InDrive Rides at Scale with Apache Spark & Databricks
 
-Exercise for **Module 7 (Spark & Databricks)** of the [DataMaroc Bootcamp](https://github.com/) (replace with the bootcamp link if you want).
+Exercise for **Module 7 (Spark & Databricks)** of the [DataMaroc Bootcamp].
 
 The goal was to apply the Spark concepts from the BIM lab to a new business: an **InDrive-style ride-hailing platform** with 2 million rides, driver and zone dimension tables, and deliberately skewed data (one driver takes about 50% of the rides, one zone about 40% of the pickups).
 
